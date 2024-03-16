@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.containers{
+    display: flex;
+    gap: 20px;
+    transform: scale(var(--escala, 1));
+    transition: transform 0.25s;
+    margin: 250px;
+    margin-top: 20px;
+}
+.containers:hover{
+    --escala: 1.2;
+    cursor:pointer;
+}
+.containers p{
+    text-align: center;
+    padding-top: 85px;
+    font-weight: bold;
+}
+#key p{
+    padding-top: 50px;
+    text-align: center;
+}
+#new_key p{
+    padding-top: 50px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding: 150px;
+}
